@@ -40,6 +40,27 @@ En Spring existen dos formas de recibir parámetros en la URL:
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/f5cd61c8-7983-44b8-9e23-271ba4f48bb4)
 
 
+---------------------------------------
+
+## Envio de informacion del controlador a la vista con el Objeto Model:
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/a8fd5e65-27d0-475b-87f0-7fd051f22d0f)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/60368b91-5f62-4da8-9c1d-e79d5538b8c3)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/686393df-4f60-47b5-a995-3c75d43e3d33)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/81396b32-0178-405b-be19-1766e454b8e2)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/724ddc30-fde5-4744-bfd3-d881f966137f)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/92caa164-8d3c-4fe1-bcb5-25e3048aa7a5)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/cf10af54-d4bf-452f-83c9-432d1f47cc18)
+
+
+
+
 
 
 
