@@ -8,6 +8,7 @@
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/435feb47-2b48-4310-9fc0-2d7787c2cf80)
 
+
 ## Ruteo:
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/a2e69cb3-5570-4d67-811f-6b3973a49a4d)
@@ -35,9 +36,18 @@ En Spring existen dos formas de recibir parámetros en la URL:
 
 ## POST:
 
+La ubicacion del metodo Post o de cualquiera, no importa, puede estar arriba o debajo del metodo get que mande a esa pagina donde está el formulario POST.
+
+
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/eae83eb4-755e-4b8d-8e98-1f9cbacdef5e)
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/f5cd61c8-7983-44b8-9e23-271ba4f48bb4)
+
+
+Si tenemos un formulario sin required(HTML), algunos parametros no serán obligatoriamente enviados, lo cual puede causar un error al dar clic en el boton submit. Para evitar ello es necesario especificar en el post Mapping que no es requerido dicho parametro, es decir, no es obligatorio al envio del POST: 
+
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/27687925-47f6-4bfd-b3d4-ab6471ac963e)
 
 
 ---------------------------------------
