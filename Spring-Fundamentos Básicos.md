@@ -68,6 +68,12 @@ Si tenemos un formulario sin required(HTML), algunos parametros no serán obliga
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/cf10af54-d4bf-452f-83c9-432d1f47cc18)
 
+## Enviar un Arraylist y verlo en una tabla:
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/70275850-114e-42d2-8218-c6dcd639f3f8)
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/327e497a-0c81-44b9-832c-6239750981b8)
+
 
 
 
