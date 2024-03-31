@@ -1,3 +1,4 @@
+<!--  <img src=""  width="800" height="450">    -->
 ## Agregar Dependencia Thymeleaf:
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/4f057399-3d36-4ef2-99fa-75dc22646b70)
@@ -6,18 +7,19 @@
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/7dc33501-adfd-4e93-955f-d486fe1ea850)
 
-![image](https://github.com/Pierohc/GTICS/assets/133154904/435feb47-2b48-4310-9fc0-2d7787c2cf80)
-
+<img src="https://github.com/Pierohc/GTICS/assets/133154904/435feb47-2b48-4310-9fc0-2d7787c2cf80"  width="800" height="450">
 
 ## Ruteo:
 
-![image](https://github.com/Pierohc/GTICS/assets/133154904/a2e69cb3-5570-4d67-811f-6b3973a49a4d)
+<img src="https://github.com/Pierohc/GTICS/assets/133154904/a2e69cb3-5570-4d67-811f-6b3973a49a4d"  width="800" height="450"> 
+
 
 ------------------------------------
 
-![image](https://github.com/Pierohc/GTICS/assets/133154904/3982e2bd-60e7-4d55-8557-f3a00fca633f)
+<img src="https://github.com/Pierohc/GTICS/assets/133154904/3982e2bd-60e7-4d55-8557-f3a00fca633f"  width="800" height="450">  
 
 ### Ejemplo con método GET: 
+
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/aaae6463-12ee-4524-a556-b02410b891fd)
 
