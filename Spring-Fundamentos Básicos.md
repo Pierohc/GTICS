@@ -1,3 +1,9 @@
+
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/d9441ee3-1e9c-49c8-984e-db3e89a6bbaf)
+
+
+
 <!--  <img src=""  width="800" height="450">    -->
 ## Agregar Dependencia Thymeleaf y DEVTOOLS:
 
