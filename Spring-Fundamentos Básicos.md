@@ -1,8 +1,40 @@
+# POM: 
+- Thymeleaf
+
+- Devtools
+
+- Data JPA
+
+- Mysql
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>3.2.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.2.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+
+
 
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/d9441ee3-1e9c-49c8-984e-db3e89a6bbaf)
-
-
 
 <!--  <img src=""  width="800" height="450">    -->
 ## Agregar Dependencia Thymeleaf y DEVTOOLS:
