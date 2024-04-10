@@ -14,12 +14,6 @@ Si sucede algún error adicionar la zona horaria y el uso de certificados SSL
 ![image](https://github.com/Pierohc/GTICS/assets/133728861/b8198c93-a9d4-40f7-8deb-7c17292a8a6e)
 
 
-
-*NOTA: RECORDAR USAR CAMELCASE Y COLOCAR EN EL application.properties*
-spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-![image](https://github.com/Pierohc/GTICS/assets/133728861/5ffc093d-254c-480a-9b21-69bbe0f66866)
-
-
 Los pasos para usar el JDBC con Spring Data se resumen en armar las siguientes partes:
 
 1. Entidades (Clases tipo Bean pero con mapeo en los atributos a la Base de Datos (Lombok))
@@ -38,5 +32,22 @@ En caso no coincida el nombre de los atributos con los que están en la tabla de
 
 ![image](https://github.com/Pierohc/GTICS/assets/133728861/10338b91-b7dc-4371-916e-ae2b815eaf8b)
 
+*NOTA: Añadir en application.properties esta linea para no tener inconvenientes si se olvidó usar el CamelCase*
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+![image](https://github.com/Pierohc/GTICS/assets/133728861/5ffc093d-254c-480a-9b21-69bbe0f66866)
+
+
+## Repositorios
+
+Para gestionar las entidades en Spring Data JPA, se deben crear repositorios (anteriormente los DAOS). Para crear un Repositorio, se crea un interfaz (Java Interface) que herede la clase JpaRepository (la más completa).
+
+Cada interfaz maneja una entidad, se debe asociar correctamente:
+![image](https://github.com/Pierohc/GTICS/assets/133728861/ed5f11ae-9a8c-4e49-88a6-b14e17ee1545)
+
+## Controladores
+
+En el controlador se debe definir el o los repositorios a utilizar para acceder a sus métodos que manejan las entidades que requiramos administrar:
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/88a2b9b1-9de9-4d89-84dc-72feba21c857)
 
 
