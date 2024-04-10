@@ -1,5 +1,8 @@
 <!--  <img src=""  width="800" height="450">    -->
-## Agregar Dependencia Thymeleaf:
+## Agregar Dependencia Thymeleaf y DEVTOOLS:
+
+![image](https://github.com/Pierohc/GTICS/assets/133154904/9c7679e2-8fda-46e7-bed0-5700a3cb9a15)
+
 
 ![image](https://github.com/Pierohc/GTICS/assets/133154904/4f057399-3d36-4ef2-99fa-75dc22646b70)
 
