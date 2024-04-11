@@ -99,7 +99,17 @@ De nuevo se realiza mediante el ID de la entidad (primary key). Por lo tanto, se
 
 ![image](https://github.com/Pierohc/GTICS/assets/133728861/12a96afd-4133-4f91-a8ca-28d96e72b42f)
 
+En el contralor, primero se debe buscar el shipper por el ID que se ha recibido.  Para este fin, se utiliza el método findById( ) del repositorio (el mismo que para la edición).
+Luego, si se encuentra el objeto, se procede a borrarlo con el método deleteById( ).
 
+![image](https://github.com/Pierohc/GTICS/assets/133728861/1f24b0b5-d43c-48c2-844d-40c67a5eaca2)
 
+JpaRepository contiene 3 métodos para borrar:
+- DeleteById: borra un elemento por su ID
+- DeleteAll: borra todos los elementos de una tabla uno por uno
+- DeleteAllInBatch: borra todos los elementos de una tabla en una sola sentencia
 
+## Otras Funciones
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/c2227ed0-252d-461f-a3bc-e8618b83060d)
 
