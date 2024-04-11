@@ -51,3 +51,41 @@ En el controlador se debe definir el o los repositorios a utilizar para acceder 
 ![image](https://github.com/Pierohc/GTICS/assets/133728861/88a2b9b1-9de9-4d89-84dc-72feba21c857)
 
 
+
+
+
+
+*PEGAR PARTE PIERO*
+12873491489012481241491354023809'1
+
+
+
+### Editar con JPA
+
+Se realiza mediante ID (primary key) Por lo tanto, se debe gestionar la ruta /editar, con un parámetro por get, en este caso, el ID.
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/a6b5840a-c0ee-4a1a-ad5f-0fe840ef92bc)
+
+Primero se debe buscar el Transportista en base al ID recibido por GET, para este fin, se usa el método findById del repositorio.
+Este método devuelve un objeto del tipo Optional. ¿Y qué es el objeto tipo Optional?
+
+A partir de java 8 se incluyó la clase “Optional”, la cual permite validar si existe un valor de retorno o no por medio del método .isPresent(). En caso se haya obtenido un valor de la base de datos, podemos recuperar el objeto (en este caso Shipper), por medio del método get(). 
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/94b3f5dd-2090-44f1-b1a6-a3c8f3760b3f)
+
+Una vez se ha comprobado que existe podemos redirigir al usuario al form para introducir los nuevos datos:
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/a2ad57e9-1013-4d2f-964f-c083117c5167)
+
+Para actualizar un registro se vuelve a usar la misma ruta, esto se debe a que Spring Data JPA utiliza el mismo método para guardar un nuevo registro y para actualizarlo → save().
+¿Y cómo diferencia si está guardando o editando? Si el formulario contiene un ID, y este se asigna al objeto por el dataBinding, entonces Spring actualiza. Si no encuentra un ID en el objeto a guardar, entonces guarda un nuevo registro.
+Observar que en el formulario de edición se tiene un input oculto (hidden) con el ID del Transportista
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/20594abd-5cad-44c7-b605-7b4bd14c7738)
+
+
+
+
+
+
+
