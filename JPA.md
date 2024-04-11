@@ -83,7 +83,21 @@ Observar que en el formulario de edición se tiene un input oculto (hidden) con 
 
 ![image](https://github.com/Pierohc/GTICS/assets/133728861/20594abd-5cad-44c7-b605-7b4bd14c7738)
 
+### Redirección en Spring MVC
 
+Para redireccionar en Spring mvc (entre controladores), se pueden usar los métodos:
+- redirect: 
+  - cambia el URL
+  - genera un nuevo GET (le responde al usuario con un 302 y el realiza una nueva solicitud)
+- forward:
+  - no cambia el URL
+  - la redirección es interna en el servidor, no se genera un nuevo GET.
+
+### Borrar con JPA
+
+De nuevo se realiza mediante el ID de la entidad (primary key). Por lo tanto, se debe gestionar la ruta /borrar, con un parámetro por get, en este caso, el ID.
+
+![image](https://github.com/Pierohc/GTICS/assets/133728861/12a96afd-4133-4f91-a8ca-28d96e72b42f)
 
 
 
