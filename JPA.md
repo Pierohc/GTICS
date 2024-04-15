@@ -1,7 +1,7 @@
 
 # Spring Data JPA
 
-Luego de configurar el POM.xml para añadir la dependencia de JBDC y LOMBOK se debe configurar la Base de Datos en el application.properties
+Luego de configurar el POM.xml para añadir la dependencia de JBDC se debe configurar la Base de Datos en el application.properties
 
 ![image](https://github.com/Pierohc/GTICS/assets/133728861/557568d0-66ae-4a20-941e-b86f5fa20e80)
 
