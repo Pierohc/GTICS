@@ -1,4 +1,4 @@
-# 1. **th:text**: `<p>`, `<span>`, `<h1>`, `<div>`, etc.
+## 1. **th:text**: `<p>`, `<span>`, `<h1>`, `<div>`, etc.
 
    ```html
    <p th:text="${texto}"></p>
@@ -21,7 +21,7 @@
 
    
 
-# 2. **th:each**: `<table>`, `<ul>`, `<ol>`, etc.
+## 2. **th:each**: `<table>`, `<ul>`, `<ol>`, etc.
 
    ```html
    <table>
@@ -50,7 +50,18 @@
  <br>
 
 
-# 3. **th:if / th:unless**: `<div>`, `<span>`, `<p>`, etc.
+## 3. **th:if / th:unless**: `<div>`, `<span>`, `<p>`, etc.
+
+   ### Variacion para agregar un style:
+
+         <div class="item-title roboto-regular"
+           th:text="${medicamento.nombre}"
+           th:style="${medicamento.nombre.length() > 20 ? 'font-small' : ''}">
+           Medicamento
+      </div>
+
+
+---------------------------------------
 
    ```html
    <div th:if="${condicion}">Contenido</div>
@@ -75,7 +86,7 @@
  <br>
  <br>
 
-# 4. **th:href / th:src**: `<a>`, `<link>`, `<script>`, `<img>`, etc.
+## 4. **th:href / th:src**: `<a>`, `<link>`, `<script>`, `<img>`, etc.
 
    ```html
    <a th:href="@{/ruta/dinamica}">Enlace</a>
