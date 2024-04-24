@@ -1,3 +1,7 @@
+    CREATE DATABASE IF NOT EXISTS xxxxxxx DEFAULT CHARACTER SET utf8mb3 ;
+    USE `xxxxxxx` ;
+
+
 
 # Spring Data JPA
 
